@@ -10,7 +10,7 @@ class Cuerpo extends StatelessWidget {
       children: <Widget>[
         new ColorBack(),
         new Container(
-          margin: EdgeInsets.fromLTRB(0, 500, 0, 20),
+          margin: EdgeInsets.fromLTRB(0, , 0, 20),
           width: size.width,
           height: 150,
           decoration: BoxDecoration(color: Colors.white),
@@ -24,6 +24,9 @@ class Cuerpo extends StatelessWidget {
               ),),
               TextField(
                 decoration: InputDecoration(labelText: 'Ingresa tu contraseña'),
+              ),
+              new RaisedButton(
+                color: Colors.white,
               )
             ],
           ),
